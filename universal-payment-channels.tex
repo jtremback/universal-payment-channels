@@ -122,9 +122,11 @@ description={A table maintained by each node that records \bglspl{routing messag
 \maketitle
 
 \begin{abstract}
-Payment channels are a type of private ledger, backed by assets held by a bank, payment processor, or blockchain. We use payment channels to specify a payment network which allows for instant transfers of conventional currencies, cryptocurrencies, and any other kind of asset which can be owned without physical possesion. The network can, in many circumstances, convert one asset type into another without using exchanges. For example, Dollars to Dogecoins, or Bitcoins to grain futures. Payments are made directly between nodes in the network, without involving the entities or blockchains backing it. This greatly reduces load on these entities and blockchains, allowing for massive scalability.
+Payment channels are a type of private ledger, backed by assets held by a bank, payment processor, or blockchain. We use payment channels to specify a payment network which allows for instant transfers of conventional currencies, cryptocurrencies, and any other kind of asset which can be owned without physical possession. The network can, in many circumstances, convert one asset type into another without using exchanges. For example, Dollars to Dogecoins, or Bitcoins to grain futures. Payments are made directly between nodes in the network, without involving the entities or blockchains backing it. This greatly reduces load on these entities and blockchains, allowing for massive scalability.
 
 The heart of this network is the Reactive Payment Routing (RPR) protocol, based on the packet routing protocols that power the internet. RPR allows the network to automatically find the cheapest route for any payment. Because of this, RPR is also able to find the best exchange rate between any two asset types used on the network.
+
+UPC's payment channels also can process Turing-complete "smart conditions", making the network extensible and allowing developers to create a new class of payment channel applications.
 \end{abstract}
 
 \section*{Introduction}
